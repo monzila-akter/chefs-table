@@ -5,7 +5,7 @@ import { FaFireAlt } from "react-icons/fa";
 const Card = ({card, handleAddRecipeToQeue}) => {
     const {recipe_image, recipe_name, short_description, ingredients, preparing_time, calories} = card; 
     return (
-        <div className='p-6 border-2 rounded-2xl mx-auto md:mx-0'>
+        <div className='p-4 md:p-6 border-2 rounded-2xl mx-auto md:mx-0'>
             <img className='rounded-2xl w-full md:h-52 object-cover mb-6' src={recipe_image} alt="" />
             <h3 className='text-xl font-semibold mb-4'>{recipe_name}</h3>
             <p className='text-base text-[#878787] mb-4'>{short_description}</p>

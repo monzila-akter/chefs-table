@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 const Sidebar = ({recipeQeue, handleRemoveRecipe, preparedRecipe, handleTimeAndCalories, totalTime, totalCalories}) => {
    
     return (
-        <div className=" md:w-1/3 border-2 rounded-2xl py-8 mb-10 md:mb-20 mx-4 lg:mx-0 h-full">
+        <div className=" w-[300px] md:w-1/3 border-2 rounded-2xl py-8 mb-10 md:mb-20 h-full">
             <h2 className='text-center text-2xl font-semibold mb-4'>Want to cook: {recipeQeue.length}</h2>
             <p className='border-b-2 w-3/4 text-center mx-auto'></p>
             {/* add cook table */}

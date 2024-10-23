@@ -8,7 +8,7 @@ const Cards = ({handleAddRecipeToQeue}) => {
 const [cards, setCards] = useState([]);
 
 useEffect(()=>{
-    fetch('../../../public/Chefs.json')
+    fetch('/Chefs.json')
     .then(res => res.json())
     .then(data => setCards(data))
 }, [])
