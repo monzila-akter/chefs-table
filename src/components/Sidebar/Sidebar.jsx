@@ -28,7 +28,7 @@ const Sidebar = ({recipeQeue, handleRemoveRecipe, preparedRecipe, handleTimeAndC
             <td>{recipe.calories}</td>
             <td ><button onClick={()=>{handleRemoveRecipe(recipe.recipe_id),
                 handleTimeAndCalories(recipe.preparing_time, recipe.calories)
-            }} className=' btn rounded-full bg-[#0BE58A] text-black mr-2 '>Preparing</button></td>
+            }} className=' btn rounded-full bg-[#0BE58A] text-black  '>Preparing</button></td>
           </tr>)
       }
     </tbody>
